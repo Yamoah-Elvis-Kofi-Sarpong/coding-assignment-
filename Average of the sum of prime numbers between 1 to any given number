@@ -1,0 +1,35 @@
+import java.util.*;
+public class Number {
+
+    public static void man(String[] args {
+
+        Scanner sc = new Scanner(System.in);
+
+        system.out.printIn("Enter start and end range");
+        int num1 = sc.nextInt();//10
+        int num2 = sc.nextInt();//100
+
+        int sum = 0, count = 0;
+        double avg = o.o;
+
+        for(int i =num1; i<=num2; i++) {
+            int n = i
+            int tem = 0;
+            int a = 2;
+
+            while(a<=(n/2)) {
+               if(n%a==0)
+               {
+                   temp==;
+                   break;
+               }
+               a==;
+
+            }
+         if(temp == 0 && i != 1) {
+            sum = sum + i;
+            count++;
+            }
+            }
+            avg = sum/count;
+            System.out.printIn("The average of all prime number is:"+avg );
